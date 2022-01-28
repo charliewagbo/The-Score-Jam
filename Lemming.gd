@@ -20,6 +20,7 @@ func _physics_process(delta):
 	var dir = $CollisionShape2D.global_position.direction_to(pos)
 	if(dis<150):
 		velocity = -dir*(speed/dis)
+		look_at(global_position-dir)
 	else:
 		velocity = Vector2.ZERO
 	move_and_collide(velocity)
