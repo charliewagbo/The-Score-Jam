@@ -15,3 +15,27 @@ position = Vector2( 533, 170 )
 
 [node name="Lemming4" parent="." instance=ExtResource( 1 )]
 position = Vector2( 165, 262 )
+
+[node name="Lemming5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 187, 40 )
+
+[node name="Lemming6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 375, 189 )
+
+[node name="Lemming7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 579, 133 )
+
+[node name="Lemming8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 211, 225 )
+
+[node name="Lemming9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 59, 28 )
+
+[node name="Lemming10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 247, 177 )
+
+[node name="Lemming11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451, 121 )
+
+[node name="Lemming12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 83, 213 )
