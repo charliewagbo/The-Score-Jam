@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 
 var velocity = Vector2.ZERO
-export var speed = 50
+export var speed = 100
 export var triger_range = 200
 
 
