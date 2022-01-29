@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Lemming.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Ice.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Fish.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Ice.tscn" type="PackedScene" id=3]
 
 [node name="World" type="Node2D"]
 
@@ -41,32 +42,26 @@ position = Vector2( 451, 121 )
 [node name="Lemming12" parent="." instance=ExtResource( 1 )]
 position = Vector2( 83, 213 )
 
-[node name="Ice" parent="." instance=ExtResource( 2 )]
-position = Vector2( 292, 76 )
+[node name="Fish" parent="." instance=ExtResource( 2 )]
+position = Vector2( 344, 152 )
 
-[node name="Ice2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 325, 76 )
+[node name="Fish2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 336, 80 )
 
-[node name="Ice3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 463, 233 )
+[node name="Ice" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 296 )
 
-[node name="Ice4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 496, 233 )
+[node name="Ice2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 472, 232 )
 
-[node name="Ice5" parent="." instance=ExtResource( 2 )]
-position = Vector2( 397, 269 )
+[node name="Ice3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 72 )
 
-[node name="Ice6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 430, 269 )
+[node name="Ice4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 248, 120 )
 
-[node name="Ice7" parent="." instance=ExtResource( 2 )]
-position = Vector2( 240, 310 )
+[node name="Ice5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 136, 168 )
 
-[node name="Ice8" parent="." instance=ExtResource( 2 )]
-position = Vector2( 273, 310 )
-
-[node name="Ice9" parent="." instance=ExtResource( 2 )]
-position = Vector2( 89, 142 )
-
-[node name="Ice10" parent="." instance=ExtResource( 2 )]
-position = Vector2( 122, 142 )
+[node name="Ice6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 296 )
